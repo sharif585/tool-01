@@ -70,3 +70,35 @@ main {
     color: #ffffff;
     border: none;
   }
+
+  /* Pillars Section */
+.pillars h2 {
+    color: #0e0e0e;
+    font-size: 40px;
+    margin-bottom: 32px;
+    font-weight: bold;
+  }
+  .pillars-container {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .pillars .pillar {
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    max-width: 219px;
+  }
+  .pillars .pillar h6 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0e0e0e;
+    margin-top: 24px;
+    margin-bottom: 12px;
+  }
+  .pillars .pillar p {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+  }
