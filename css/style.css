@@ -288,4 +288,65 @@ main {
     font-size: 18px;
     font-weight: 600;
     color: #ffffff;
-  }  
+  }
+
+  /* Donate Section */
+.donate > h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #0e0e0e;
+    text-align: center;
+  }
+  .donate > p {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    text-align: center;
+    margin: 22px 88px 32px;
+  }
+  .donate .donates {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  .donate .donates h2 {
+    padding: 41px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    cursor: pointer;
+  }
+  .donate .donates #seleted {
+    background-color: #c6e4d6;
+  }
+  .donate .donates #seleted:hover {
+    background-color: #006a50;
+  }
+  .donate .donates h2:hover {
+    background-color: #006a50;
+  }
+  .donate .amount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+  .donate input[type='text'] {
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.3);
+    padding: 20px 400px;
+    background-color: #ffffff;
+    border: none;
+  }
+  .donate .amount button {
+    background-color: #006a50;
+    border-radius: 8px;
+    border: none;
+    padding: 17px 34px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+  }
