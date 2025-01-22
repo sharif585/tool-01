@@ -243,4 +243,49 @@ main {
     background-position: right 1rem center;
     background-size: 12%;
   }
-  
+/* News Section */
+.news > h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #0e0e0e;
+  }
+  .news > p {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+  }
+  .news .news-container {
+    background-color: #ffffff;
+    border-radius: 24px;
+    padding: 48px;
+    display: flex;
+    gap: 32px;
+    margin-bottom: 23px;
+  }
+  .news .news-container > img {
+    border-radius: 24px;
+    width: 100%;
+  }
+  .news .news-content h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    margin-top: 11px;
+  }
+  .news .news-content img {
+    margin-top: -8px;
+  }
+  .news .news-content p {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+  }
+  .news .news-content button {
+    background-color: #006a50;
+    border-radius: 8px;
+    border: none;
+    padding: 13px 26px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+  }  
